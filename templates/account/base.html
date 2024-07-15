@@ -15,6 +15,8 @@
   <link rel="stylesheet" href="{% static 'adminlte/plugins/overlayScrollbars/css/OverlayScrollbars.min.css' %}">
   <!-- Theme style -->
   <link rel="stylesheet" href="{% static 'adminlte/admindist/css/adminlte.min.css' %}">
+    <!-- jQuery Context Menu -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-contextmenu/2.7.1/jquery.contextMenu.min.css">
 </head>
 <body class="hold-transition dark-mode sidebar-mini layout-fixed layout-navbar-fixed layout-footer-fixed">
 <div class="wrapper">
@@ -42,12 +44,12 @@
   </aside>
 
   <!-- Content Wrapper. Contains page content -->
-  <div class="content-wrapper">
+  <div class="content-wrapper context-menu-one">
     <!-- Content Header (Page header) -->
     <div class="content-header">
       <div class="container-fluid">
         <div class="row mb-2">
-          
+
 
         </div><!-- /.row -->
       </div><!-- /.container-fluid -->
@@ -99,5 +101,9 @@
 <!-- ChartJS -->
 <script src="{% static 'adminlte/plugins/chart.js/Chart.min.js' %}"></script>
 <script src="{% static 'adminlte/admindist/js/pages/dashboard2.js' %}"></script>
+<!-- jQuery Context Menu -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-contextmenu/2.7.1/jquery.contextMenu.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-contextmenu/2.7.1/jquery.ui.position.js"></script>
+<script src="{% static 'js/contextmenu.js' %}"></script>
 </body>
 </html>
