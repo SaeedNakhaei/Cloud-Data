@@ -2,7 +2,7 @@
     $(document).ready(function () {
         'use strict';
         var errorItems = { "errorItem": { name: "Items Load error" },};
-        
+
 
         $.contextMenu({
             selector: '.context-menu-one',
